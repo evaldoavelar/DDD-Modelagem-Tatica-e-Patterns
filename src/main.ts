@@ -1,7 +1,7 @@
-import { Address } from './Domain/Entity/address';
-import { Customer } from './Domain/Entity/customer';
-import { OrderItem } from './Domain/Entity/order-item';
-import { Order } from './Domain/Entity/order';
+import { Order } from './Domain/checkout/Entity/order';
+import { OrderItem } from './Domain/checkout/Entity/order-item';
+import { Address } from './Domain/Customer/Entity/address';
+import { Customer } from './Domain/Customer/Entity/customer';
 console.log('Hello, DDD!');
 
 let customer = new Customer(

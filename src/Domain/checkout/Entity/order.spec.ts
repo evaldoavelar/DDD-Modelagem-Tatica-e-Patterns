@@ -1,7 +1,7 @@
 
 import { Order } from "./order";
 import { OrderItem } from "./order-item";
-import { Product } from "./product";
+import { Product } from "../../Product/Entity/product";
 
 describe('Order', () => {
     it('should create an order', () => {

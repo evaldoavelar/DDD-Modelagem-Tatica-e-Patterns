@@ -4,7 +4,7 @@ import EventInterface from "../../@Shared/event.interface";
 export class SendEmailWhenProductIsCreatedHandler implements EventHandlerInterface{
    
     handle(event: EventInterface): void {
-        console.log(`evento recebido ${JSON.stringify(event)}`);
+        console.log(`Send email...`);
     }
 
 }

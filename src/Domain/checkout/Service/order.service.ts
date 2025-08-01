@@ -1,7 +1,7 @@
-import { Customer } from "../Entity/customer";
-import { Order } from "../Entity/order";
+import { Customer } from "../../Customer/Entity/customer";
 import { OrderItem } from "../Entity/order-item";
 import { v4 as uuid, v4 } from 'uuid';
+import { Order } from "../Entity/order";
 
 export class OrderService {
 
